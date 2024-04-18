@@ -1,1 +1,22 @@
-<router-outlet></router-outlet>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li style="margin-right: 1rem">
+          <a routerLink="login" class="text-black text-decoration-none"
+            >Login</a
+          >
+        </li>
+        <li class="nav-item mr-3">
+          <a routerLink="cursos" class="text-black text-decoration-none"
+            >Cursos</a
+          >
+        </li>
+      </ul>
+      <a routerLink="" class="fs-1 text-black text-decoration-none">Rotas</a>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
