@@ -6,9 +6,10 @@ import { CursosComponent } from './cursos/cursos.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { Routing } from './app-routing.module';
+import { CursoDetalheComponent } from './curso-detalhe/curso-detalhe.component';
 
 @NgModule({
-  declarations: [AppComponent, CursosComponent, HomeComponent, LoginComponent],
+  declarations: [AppComponent, CursosComponent, HomeComponent, LoginComponent, CursoDetalheComponent],
   imports: [BrowserModule, Routing],
   providers: [],
   bootstrap: [AppComponent],
