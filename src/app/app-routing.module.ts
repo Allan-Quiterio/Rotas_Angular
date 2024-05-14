@@ -4,6 +4,7 @@ import { LoginComponent } from './login/login.component';
 import { CursosComponent } from './cursos/cursos.component';
 import { ModuleWithProviders } from '@angular/core';
 import { CursoDetalheComponent } from './curso-detalhe/curso-detalhe.component';
+import { CursoNaoEncontradoComponent } from './curso-nao-encontrado/curso-nao-encontrado.component';
 
 //Definindo todas as rotas
 const AppRoutingModule: Routes = [
@@ -11,6 +12,7 @@ const AppRoutingModule: Routes = [
   { path: 'cursos', component: CursosComponent },
   //Definindo uma rota que tenha um filho id
   { path: 'curso/:id', component: CursoDetalheComponent },
+  { path: 'naoEncontrado', component: CursoNaoEncontradoComponent },
   { path: '', component: HomeComponent },
 ];
 
